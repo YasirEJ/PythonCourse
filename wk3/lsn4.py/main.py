@@ -36,3 +36,8 @@
 
 # print(get_arguments(1, 2, 3, 1, age=22, name='Yasir', sets = {1, 2}))
 
+
+list1 = [30, 20, 25]
+list1.sort()
+list1.reverse()
+print(list1)
