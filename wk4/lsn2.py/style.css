@@ -1,13 +1,16 @@
 body, html{
     margin: 0;
+    width: 100%;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
 }
-.bief_info{
-    width: 20%;
+.main{
+    width: 50%;
     height: 100vh;
     padding: 15px;
-    background-color: #009975;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,29 +22,33 @@ body, html{
     height: 5px;
     background-color: rgb(108, 108, 108); */
     /* background: linear-gradient(180deg, rgba(106,168,79,1) 0%, rgba(0,0,0,1) 100%); */
-/* } */
-.main_info{
+.block{
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    border: gray, solid, 2px;
+}
+#main_info{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250px;
-    border-bottom: 1px solid gray;
+    height: auto;
 }
 .full_name{
     display: flex;
-    width: min-content;
-    color:whitesmoke;
+    flex-wrap: nowrap;
+    height: min-content;
+    color: rgba(0, 0, 0, 0.612);
     font-size: x-large;
-    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
 }
 #profile_photo{
-    width: 100px;
+    width: 160px;
     margin: 15px;
-    border-radius: 15px;
+    border-radius: 80px;
 }
 .contact{
-    color: #252525;
-    font-family: 'Roboto Mono', monospace;
+    color: #393939;
     margin: 5px;
 }
 .contacts{

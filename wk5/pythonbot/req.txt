@@ -1,0 +1,11 @@
+certifi==2022.6.15
+charset-normalizer==2.1.0
+config==0.5.1
+finite-state-machine==0.5.0
+idna==3.3
+pyTelegramBotAPI==4.6.0
+python-decouple==3.6
+requests==2.28.1
+six==1.16.0
+transitions==0.6.4
+urllib3==1.26.10
